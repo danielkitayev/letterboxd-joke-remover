@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Joke Review Blocker</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <h1>Joke Review Blocker</h1>
+
+  <p id="stats">Loading...</p>
+  <p id="lastUpdated"></p>
+  <button id="refreshBtn">Refresh blocklist now</button>
+
+  <hr />
+
+  <label for="allowlist">Never hide these usernames (comma-separated):</label>
+  <textarea id="allowlist" rows="3"></textarea>
+  <button id="saveAllowlist">Save</button>
+
+  <hr />
+
+  <a id="repoLink" href="#" target="_blank" rel="noopener">View / contribute to the blocklist on GitHub</a>
+
+  <script src="config.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

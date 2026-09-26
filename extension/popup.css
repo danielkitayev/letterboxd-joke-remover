@@ -1,0 +1,25 @@
+body {
+  width: 280px;
+  font-family: system-ui, sans-serif;
+  font-size: 13px;
+  padding: 12px;
+}
+h1 {
+  font-size: 15px;
+  margin: 0 0 8px;
+}
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 12px;
+}
+button {
+  cursor: pointer;
+  margin-top: 4px;
+}
+hr {
+  margin: 10px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}

@@ -1,0 +1,35 @@
+.jrb-hidden-banner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  margin: 6px 0;
+  background: #223;
+  color: #ccd;
+  font-size: 13px;
+  border-left: 3px solid #ff8000;
+  border-radius: 4px;
+}
+
+.jrb-show-btn,
+.jrb-report-btn {
+  background: transparent;
+  border: 1px solid #888;
+  color: inherit;
+  border-radius: 3px;
+  padding: 2px 8px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.jrb-report-btn {
+  display: inline-block;
+  margin-top: 6px;
+  border-color: #ff8000;
+  color: #ff8000;
+}
+
+.jrb-report-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
