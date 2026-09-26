@@ -1,8 +1,8 @@
 // Edit GITHUB_OWNER and GITHUB_REPO to point at the repo you create
 // (the one containing this whole project, including data/blocklist.json).
 const CONFIG = {
-  GITHUB_OWNER: "YOUR_GITHUB_USERNAME",
-  GITHUB_REPO: "letterboxd-joke-blocker",
+  GITHUB_OWNER: "danielkitayev",
+  GITHUB_REPO: "letterboxd-joke-remover",
   GITHUB_BRANCH: "main",
   BLOCKLIST_PATH: "data/blocklist.json",
 
